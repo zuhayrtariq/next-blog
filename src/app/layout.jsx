@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >
-        <div className=" max-w-[1562px] mx-auto bg-backgroundSoft lg:px-12 min-h-screen flex flex-col justify-between">
+        <div className=" max-w-[1562px] mx-auto bg-background lg:px-16 xl:px-32 min-h-screen flex flex-col justify-between">
           <Navbar />
           {/* <MobileNavbar /> */}
           {children}
