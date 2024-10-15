@@ -29,7 +29,7 @@ export default function Home() {
           <Image src={"/brands.png"} alt="Brands" fill />
         </div>
       </div>
-      <div className="flex-1 relative bg-red-500">
+      <div className="flex-1 relative bg-blue-200">
         <Image src="/hero.gif" alt="" fill />
       </div>
     </div>
